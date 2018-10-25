@@ -16,7 +16,7 @@
 <a href="">구글로그인버튼입니당</a><p>
 <a href="">네이버로그인버튼입니당</a><p>
 <a href="">카카오로그인버튼입니당</a><p>
-<a href="#">로그인버튼입니당</a> <a href="joinForm.do">회원가입버튼입니당</a>
+<a href="#">로그인버튼입니당</a> <a href="insertMember.do">회원가입버튼입니당</a>
 </div>
 </form>
 </body>

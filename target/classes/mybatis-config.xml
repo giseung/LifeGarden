@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE configuration PUBLIC
+"-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.dual.web.member.model.vo.Member" alias="Member" />
+		<typeAlias type="com.dual.web.board.model.vo.Board" alias="Board" />
+		<typeAlias type="com.dual.web.setting.model.vo.Setting" alias="Settion" />
+	</typeAliases>
+
+	<mappers>
+		<mapper resource="mappers/member-mapper.xml" />
+	</mappers>
+</configuration>

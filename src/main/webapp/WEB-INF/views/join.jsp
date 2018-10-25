@@ -34,7 +34,7 @@
 </tr>
 <tr>
 <td colspan="2">
-<a href="#">가입하기</a> <a href="#">취소</a>
+<a href=insertMember.do>가입하기</a> <a href="#">취소</a>
 </td>
 </tr>
 </table>
