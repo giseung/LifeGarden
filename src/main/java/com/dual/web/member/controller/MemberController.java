@@ -3,6 +3,7 @@ package com.dual.web.member.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.handler.RequestMatchResult;
 
 import com.dual.web.member.model.service.MemberService;
 import com.dual.web.member.model.vo.Member;
@@ -20,6 +21,13 @@ public class MemberController {
 	private static final Logger logger = LoggerFactory.getLogger(MemberController.class);
 	
 	private MemberService memberService;
+	
+	@RequestMapping(value = "joinForm.do", method = RequestMethod.GET)
+	public String JoinForm(){
+		return "join";
+	}
+	
+	
 	
 	@RequestMapping(value = "insertMember.do", method = RequestMethod.GET)
 	public String InserMember(Member m, HttpSession session){
