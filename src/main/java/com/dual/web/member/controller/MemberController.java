@@ -11,5 +11,10 @@ public class MemberController {
 	public String joinForm(){
 		return "join";
 	}
+	
+	@RequestMapping(value = "joinForm2.do", method = RequestMethod.GET)
+	public String joinForm2(){
+		return "join2";
+	}
 
 }
